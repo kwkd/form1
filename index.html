@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Испытание: форма регистрации</title>
+    </head>
+    <body>
+        <h1>Регистрация</h1>
+        <form action="/echo" method="post">
+            <label for=login>Ваш логин (email):</label><br />
+            <input type=text name=login id=login /><br />
+            <label for=pass>Пароль:</label /><br />
+            <input type=password name=password id=pass /><br />
+            <label for=about-you>Информация о себе:</label><br />
+            <textarea id="info" name="info" value="" placeholder="Гаибов Шохзод"></textarea>
+            <input type=checkbox name=checkbox-rassylka id=check checked />
+            <label for=check>Подписаться на рассылку</label><br />
+            <input type=submit value=Зарегистрироваться />
+        </form>
+    </body>
+</html>
+
+
+
